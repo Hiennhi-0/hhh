@@ -1,0 +1,152 @@
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin-left: 56px;
+    margin-top: 10px;
+    position: relative;
+}
+.nav li a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 21px;
+}
+.nav li:hover{
+    border-bottom: 2px solid #EEEEEE;
+}
+.logo a{
+    text-decoration: none;
+    color: #66BAB7;
+    font-size: 50px;
+}
+.logo{
+    margin-top: 10px;
+}
+.right-menu{
+    margin-top: 17px;
+}
+.right-menu a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 21px;
+}
+.right-menu a:hover{
+    opacity: 50%;
+}
+.cart{
+    margin-left: 12px;
+}
+.banner{
+    height: 100vh;
+    background: url(../img/FKZUzQ7agAASpyc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 85% center, bottom left;
+}
+.video-1{
+    height: 100vh;
+}
+.video-1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sub-menu{
+    position: absolute;
+    left: 0;
+    width: 100px;
+    text-align: left !important;
+    padding: 12px;
+    background-color: #0c0c0c57;;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.2s;
+    border-radius: 20px;
+}
+.sub-menu li{
+    margin: 0;
+    display: block !important;
+    margin: 4px 0;
+}
+.sub-menu li a{
+    display: block;
+}
+.nav li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.sub-menu-1{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    text-align: left !important;
+    padding: 12px;
+    background-color: #0c0c0c57;;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.2s;
+    border-radius: 20px;
+}
+.sub-menu-1 li{
+    margin: 0;
+    display: block !important;
+    margin: 4px 0;
+}
+.sub-menu-1 li a{
+    display: block;
+}
+.nav li:hover .sub-menu-1{
+    visibility: visible;
+    opacity: 1;
+}
+.sub-menu li:hover{
+    border-bottom: none !important;
+}
+.sub-menu a:hover{
+    color: #66BAB7;
+}
+.sub-menu-1 li:hover{
+    border-bottom: none !important;
+}
+.sub-menu-1 a:hover{
+    color: #66BAB7;
+}
+h2 a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+h2 a:hover{
+    color: #66BAB7;
+    opacity: 50%;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    margin: 2px;
+    position: relative;
+}
+.feature{
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.feature img{
+    width: 100%;
+}
+.content-1{
+    width: 0;
+    height: 100%;
+    background-color: #66bab7c2;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition-duration: 0.1s;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.box:hover .content-1{
+    width: 100%;
+ }
+
